@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		687299A4222DB4590095B5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687299A3222DB4590095B5EB /* AppDelegate.swift */; };
-		687299A6222DB4590095B5EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687299A5222DB4590095B5EB /* ViewController.swift */; };
 		687299A9222DB4590095B5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687299A7222DB4590095B5EB /* Main.storyboard */; };
 		687299AB222DB45A0095B5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687299AA222DB45A0095B5EB /* Assets.xcassets */; };
 		687299AE222DB45A0095B5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687299AC222DB45A0095B5EB /* LaunchScreen.storyboard */; };
 		687299B9222DB45A0095B5EB /* BullingtongColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687299B8222DB45A0095B5EB /* BullingtongColorsTests.swift */; };
 		687299C4222DB45A0095B5EB /* BullingtongColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687299C3222DB45A0095B5EB /* BullingtongColorsUITests.swift */; };
+		687299E4222DD7F50095B5EB /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687299E3222DD7F50095B5EB /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		687299A0222DB4590095B5EB /* BullingtongColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullingtongColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		687299A3222DB4590095B5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		687299A5222DB4590095B5EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		687299A8222DB4590095B5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		687299AA222DB45A0095B5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687299AD222DB45A0095B5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		687299BF222DB45A0095B5EB /* BullingtongColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullingtongColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687299C3222DB45A0095B5EB /* BullingtongColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullingtongColorsUITests.swift; sourceTree = "<group>"; };
 		687299C5222DB45A0095B5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687299E3222DD7F50095B5EB /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				687299A3222DB4590095B5EB /* AppDelegate.swift */,
-				687299A5222DB4590095B5EB /* ViewController.swift */,
 				687299A7222DB4590095B5EB /* Main.storyboard */,
 				687299AA222DB45A0095B5EB /* Assets.xcassets */,
 				687299AC222DB45A0095B5EB /* LaunchScreen.storyboard */,
 				687299AF222DB45A0095B5EB /* Info.plist */,
+				687299E3222DD7F50095B5EB /* ColorsViewController.swift */,
 			);
 			path = BullingtongColors;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687299A6222DB4590095B5EB /* ViewController.swift in Sources */,
+				687299E4222DD7F50095B5EB /* ColorsViewController.swift in Sources */,
 				687299A4222DB4590095B5EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
